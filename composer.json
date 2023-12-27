@@ -1,0 +1,26 @@
+{
+    "name": "ashokdevatwal/appsinsight",
+    "description": "A demo package",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "john@doe.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AshokDevatwal\\AppsInsight\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AshokDevatwal\\AppsInsight\\AppsInsightServiceProvider"
+            ]
+        }
+    }
+}
