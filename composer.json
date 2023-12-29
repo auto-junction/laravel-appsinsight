@@ -16,6 +16,12 @@
             "AshokDevatwal\\AppsInsight\\": "src"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/auto-junction/appsinsight-package"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
