@@ -25,10 +25,9 @@ jobs:
     # - name: Run tests
     #   run: vendor/bin/phpunit
 
-    - name: Publish package to GitHub Packages
-      run: |
-        echo "//npm.pkg.github.com/:_authToken=\${{secrets.GITHUB_TOKEN}}" > ~/.npmrc
-        
+    - name: Publish Package
+        run: |
+          composer publish --access public
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-    - name: Cleanup
-      run: rm -f ~/.npmrc
