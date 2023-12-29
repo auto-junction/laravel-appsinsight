@@ -1,5 +1,5 @@
 {
-    "name": "ashokdevatwal/appsinsight",
+    "name": "auto-junction/laravel-appsinsight",
     "description": "A demo package",
     "version": "1.0.0",
     "type": "library",
@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "AshokDevatwal\\AppsInsight\\": "src"
+            "AutoJunction\\AppsInsight\\": "src"
         }
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/auto-junction/appsinsight-package"
+            "url": "https://github.com/auto-junction/laravel-appsinsight"
         }
     ],
     "config": {
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "AshokDevatwal\\AppsInsight\\AppsInsightServiceProvider"
+                "AutoJunction\\AppsInsight\\AppsInsightServiceProvider"
             ]
         }
     }

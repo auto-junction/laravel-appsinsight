@@ -1,12 +1,12 @@
 <?php
 
-namespace AshokDevatwal\AppsInsight;
+namespace AutoJunction\AppsInsight;
 
 use Illuminate\Support\ServiceProvider;
 
 use Illuminate\Support\Facades\View;
 
-use AshokDevatwal\AppsInsight\TractorJunction;
+use AutoJunction\AppsInsight\TractorJunction;
 
 class AppsInsightServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace AshokDevatwal\AppsInsight;
+namespace AutoJunction\AppsInsight;
 
 class TractorJunction {
  
