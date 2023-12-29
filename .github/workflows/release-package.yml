@@ -25,9 +25,6 @@ jobs:
     # - name: Run tests
     #   run: vendor/bin/phpunit
 
-    - name: Build package
-      run: composer build
-
     - name: Publish package to GitHub Packages
       run: |
         echo "//npm.pkg.github.com/:_authToken=\${{secrets.GITHUB_TOKEN}}" > ~/.npmrc
