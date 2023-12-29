@@ -18,10 +18,15 @@
     },
     "repositories": [
         {
-            "type": "composer",
+            "type": "vcs",
             "url": "https://github.com/auto-junction/appsinsight-package"
         }
     ],
+    "config": {
+        "github-oauth": {
+            "github.com": "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"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
