@@ -18,7 +18,7 @@
     },
     "repositories": [
         {
-            "type": "vcs",
+            "type": "composer",
             "url": "https://github.com/auto-junction/appsinsight-package"
         }
     ],
