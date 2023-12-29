@@ -28,7 +28,7 @@ jobs:
     - name: Publish package to GitHub Packages
       run: |
         echo "//npm.pkg.github.com/:_authToken=\${{secrets.GITHUB_TOKEN}}" > ~/.npmrc
-        composer publish
+        
 
     - name: Cleanup
       run: rm -f ~/.npmrc
